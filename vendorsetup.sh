@@ -25,5 +25,4 @@ OF_ADVANCED_SECURITY=1
 OF_SKIP_FBE_DECRYPTION=1
 
 # General build variables
-TARGET_ARCH=arm64
 FOX_AB_DEVICE=1  # If the device is A/B
