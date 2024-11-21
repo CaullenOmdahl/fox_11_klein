@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/xiaomi/cas
+LOCAL_PATH := device/blackshark/klein
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

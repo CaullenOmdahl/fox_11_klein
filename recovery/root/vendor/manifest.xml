@@ -30,7 +30,7 @@
         <fqname>@1.2::IVibrator/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.xiaomi.hardware.vibratorfeature</name>
+        <name>vendor.blackshark.hardware.vibratorfeature</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>

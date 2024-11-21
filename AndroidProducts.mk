@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_cas.mk
+    $(LOCAL_DIR)/omni_klein.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_cas-user \
-    omni_cas-userdebug \
-    omni_cas-eng
+    omni_klein-user \
+    omni_klein-userdebug \
+    omni_klein-eng

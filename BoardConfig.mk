@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/cas
+DEVICE_PATH := device/blackshark/klein
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,7 +29,7 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := cas
+TARGET_OTA_ASSERT_DEVICE := klein
 
 # AVB
 BOARD_AVB_ENABLE := true
@@ -91,8 +91,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/xiaomi/cas
-TARGET_KERNEL_CONFIG := cas_defconfig
+TARGET_KERNEL_SOURCE := kernel/blackshark/klein
+TARGET_KERNEL_CONFIG := klein_defconfig
 
 # MIUI 12.X (Android 11) Decryption
 BOARD_AVB_RECOVERY_ADD_HASH_FOOTER_ARGS += \

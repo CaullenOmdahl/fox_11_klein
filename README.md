@@ -1,11 +1,11 @@
 TWRP Device Tree for MI 10 Ultra
 =========================================
 
-The Xiaomi MI 10 Ultra (codenamed _"cas"_) is a high-end smartphone from Xiaomi.
+The blackshark MI 10 Ultra (codenamed _"klein"_) is a high-end smartphone from blackshark.
 
 It was announced on August 2020. Release date was August 2020.
 
-Kernel and all blobs are extracted from [miui_CAS_V12.0.15.0.QJJCNXM_5abfb26bdb_10.0.zip](https://bigota.d.miui.com/V12.0.15.0.QJJCNXM/miui_CAS_V12.0.15.0.QJJCNXM_5abfb26bdb_10.0.zip) firmware.
+Kernel and all blobs are extracted from [miui_klein_V12.0.15.0.QJJCNXM_5abfb26bdb_10.0.zip](https://bigota.d.miui.com/V12.0.15.0.QJJCNXM/miui_klein_V12.0.15.0.QJJCNXM_5abfb26bdb_10.0.zip) firmware.
 
 :sparkling_heart: Thanks [@yarpiin](https://github.com/yarpiin)
 
@@ -41,4 +41,4 @@ Camera  | 48MP(wide) 48MP(Periscope Telephoto) 20MP(Ultra-wide) 12MP(Telephoto 2
 
 # Device picture
 
-![Xiaomi MI 10 Ultra 5G ](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi10-ultra-11.jpg "Xiaomi MI 10 Ultra 5G")
+![blackshark MI 10 Ultra 5G ](https://fdn2.gsmarena.com/vv/pics/blackshark/blackshark-mi10-ultra-11.jpg "blackshark MI 10 Ultra 5G")
