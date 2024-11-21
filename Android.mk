@@ -6,7 +6,8 @@
 
 LOCAL_PATH := $(call my-dir)
 
-source device/blackshark/klein/vendorsetup.sh
+# Source the vendorsetup.sh file
+include $(LOCAL_PATH)/vendorsetup.sh
 
 ifeq ($(TARGET_DEVICE),klein)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
