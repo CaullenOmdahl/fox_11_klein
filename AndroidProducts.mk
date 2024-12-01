@@ -1,14 +1,8 @@
-#
-# Copyright (C) 2024 The Android Open Source Project
-# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
-#
-# SPDX-License-Identifier: Apache-2.0
-#
+LOCAL_PATH := device/blackshark/klein
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_klein.mk
+    $(LOCAL_PATH)/omni_klein.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_klein-user \
-    omni_klein-userdebug \
-    omni_klein-eng
+    omni_klein-eng \
+    omni_klein-userdebug 
