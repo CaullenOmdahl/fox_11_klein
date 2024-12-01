@@ -1,13 +1,14 @@
 #
-# Copyright (C) 2021 The twrpRom Project
+# Copyright (C) 2024 The Android Open Source Project
+# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_klein.mk
+    $(LOCAL_DIR)/omni_klein.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_klein-user \
-    twrp_klein-userdebug \
-    twrp_klein-eng
+    omni_klein-user \
+    omni_klein-userdebug \
+    omni_klein-eng

@@ -1,44 +1,10 @@
-TWRP Device Tree for MI 10 Ultra
-=========================================
+# Android device tree for blackshark SHARK KLE-H0 (klein)
 
-The blackshark MI 10 Ultra (codenamed _"klein"_) is a high-end smartphone from blackshark.
-
-It was announced on August 2020. Release date was August 2020.
-
-Kernel and all blobs are extracted from [miui_klein_V12.0.15.0.QJJCNXM_5abfb26bdb_10.0.zip](https://bigota.d.miui.com/V12.0.15.0.QJJCNXM/miui_klein_V12.0.15.0.QJJCNXM_5abfb26bdb_10.0.zip) firmware.
-
-:sparkling_heart: Thanks [@yarpiin](https://github.com/yarpiin)
-
-# Works:
-- **Decryption**(Support **pattern/pin**, tested on **V12.5.6** and **21.9.27**)
-- MTP/ADB
-- Fastbootd
-- ADB Sideload
-- Vibration
-- ...
-
-# Features:
-- **Android 11 Support**
-- Magisk-v23.0 included
-- Prevent from replacing TWRP with stock recovery
-- DTBO Patch
-- **[Support for flashing rom(>=4GB)](https://github.com/xiangfeidexiaohuo/rec4Gota)**
-- Enable /cache partition
-
-# Device specifications
-
-Basic   | Spec Sheet
--------:|:-------------------------
-SoC     | Qualcomm SDM865 Snapdragon 865
-CPU     | Octa-core (1x2.84 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585)
-GPU     | Adreno 650
-Memory  | 8/12/16 GB RAM
-Shipped Android Version | 10.0 with MIUI 12
-Storage | 128/256/512 GB
-Battery | Li-Ion 4500 mAh, non-removable, graphene-enhanced
-Display | 1080 x 2340 pixels, 19.5:9 ratio, 6.67 inches, OLED, 1B colors, 120Hz, HDR10+, 800 nits
-Camera  | 48MP(wide) 48MP(Periscope Telephoto) 20MP(Ultra-wide) 12MP(Telephoto 2x Optical Zoom) 8MP(Telephoto 5x Hybrid zoom)
-
-# Device picture
-
-![blackshark MI 10 Ultra 5G ](https://fdn2.gsmarena.com/vv/pics/blackshark/blackshark-mi10-ultra-11.jpg "blackshark MI 10 Ultra 5G")
+```
+#
+# Copyright (C) 2024 The Android Open Source Project
+# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
