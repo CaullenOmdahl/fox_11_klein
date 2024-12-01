@@ -84,7 +84,7 @@ cd sync
 
 ```bash
 # Clone device tree
-git clone https://github.com/your_username/device_blackshark_klein device/blackshark/klein
+git clone https://github.com/CaullenOmdahl/fox_11_klein device/blackshark/klein
 
 # Create directories for prebuilt files
 mkdir -p device/blackshark/klein/prebuilt
